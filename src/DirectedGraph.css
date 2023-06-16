@@ -1,0 +1,43 @@
+.graph-container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+  }
+  
+  .graph {
+    flex: 1;
+    height: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .node-input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .add-button {
+    padding: 8px 16px;
+    background-color: #2B7CE9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #1564B3;
+  }
+  
+  .add-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #2B7CE9;
+  }
+  
